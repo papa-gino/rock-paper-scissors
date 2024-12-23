@@ -1,4 +1,4 @@
-function computerSelect() {
+function getComputerChoice() {
     let choice;
     switch(Math.floor(Math.random(3))) {
         case 0:
@@ -16,4 +16,4 @@ function computerSelect() {
 }
 
 
-console.log(computerSelect())
+console.log(getComputerChoice())
